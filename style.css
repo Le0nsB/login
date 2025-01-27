@@ -1,0 +1,36 @@
+body{
+    height: 100%;
+    background-color: #e4e4e4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+html{
+    height: 100%;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    gap: 10px;
+    width: 75%;
+    background-color: #d9d9d9
+}
+input{
+    border-style: hidden;
+    height: 40px;
+    width: 160px;
+    font-size: 15px;
+    border-radius: 2px;
+    padding-left: 10px;
+}
+button{
+    border-style: hidden;
+    background-color: #b47da7;
+    border-radius: 2px;
+    height: 40px;
+    width: 120px;
+    font-size: 15px;
+}
